@@ -1,5 +1,55 @@
 # Xonsh Change Log
 
+## [0.20.0](https://github.com/yonasBSD/xonsh/compare/0.19.9...0.20.0) (2025-07-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* auto-load xontribs after loading RC files ([#5873](https://github.com/yonasBSD/xonsh/issues/5873))
+
+### Features
+
+* [#5745](https://github.com/yonasBSD/xonsh/issues/5745) - send Ctrl+C event on Windows instead of forceful terminate ([#5838](https://github.com/yonasBSD/xonsh/issues/5838)) ([ac02ea1](https://github.com/yonasBSD/xonsh/commit/ac02ea167a1b1b98d13028d115303ab8890ce44f))
+* **completion:** Accept single completion in VI MODE using `Ctrl+]` ([#5763](https://github.com/yonasBSD/xonsh/issues/5763)) ([45c6436](https://github.com/yonasBSD/xonsh/commit/45c643667c2e3e233783770cabeec0d8a8a49b61))
+* **environ:** allow XONSH_*_DIR to be configurable ([#5783](https://github.com/yonasBSD/xonsh/issues/5783)) ([0292b43](https://github.com/yonasBSD/xonsh/commit/0292b43e64c72ef16a75128d6346ce7d3b316d66))
+* New experimental Rust based parser for xonsh ([#5749](https://github.com/yonasBSD/xonsh/issues/5749)) ([cff9046](https://github.com/yonasBSD/xonsh/commit/cff9046e0c79fb8bbd614f9b2dbcf980581a6536))
+
+
+### Bug Fixes
+
+* 5800 ([7163e65](https://github.com/yonasBSD/xonsh/commit/7163e65e74e3a22d2b6daab8cf2dd6976bda5adb))
+* ci update ([246a88f](https://github.com/yonasBSD/xonsh/commit/246a88fc267beaefce4af841e805200971109b68))
+* don't skip history items when running full history pull after session-specific pull ([#5826](https://github.com/yonasBSD/xonsh/issues/5826)) ([5ecdcae](https://github.com/yonasBSD/xonsh/commit/5ecdcae86d8d430f125b61a387cf6bb4ab877940))
+* pypi publish action directly ([75b3ce8](https://github.com/yonasBSD/xonsh/commit/75b3ce8b88c6e564d66c8f97571f7a3d95150b99))
+* PyPI upload ([#5852](https://github.com/yonasBSD/xonsh/issues/5852)) ([43beed3](https://github.com/yonasBSD/xonsh/commit/43beed373212a83d801a63355f580d056e5ac922))
+* PyPI v0.19.6 upload ([0001a9d](https://github.com/yonasBSD/xonsh/commit/0001a9dee184bcd19699fc782d9a81ce26584cb2))
+* pypi wheel checking ([88bfa3c](https://github.com/yonasBSD/xonsh/commit/88bfa3ce7c4c67ebdb5144408abbce2df12d4d98))
+* ruff v0.12 fix on codebase ([2d13615](https://github.com/yonasBSD/xonsh/commit/2d13615ca8a03aacf44861ee452f07de032be8ff))
+* set v0.19.6 ([e60c3ff](https://github.com/yonasBSD/xonsh/commit/e60c3ff05d72f13ba9976267661df9833228e8a3))
+* twine check package metadata as plain text ([a174388](https://github.com/yonasBSD/xonsh/commit/a17438808af7f86e00f86a220775c812cec852bf))
+* update publish ([f510d01](https://github.com/yonasBSD/xonsh/commit/f510d01a27188c67bf756ffca2021556c15bcac2))
+* update release action ([3b23bf0](https://github.com/yonasBSD/xonsh/commit/3b23bf0adccff1a695b06e20bf01025b6ff6c165))
+* Update release-please-config.json ([4c21211](https://github.com/yonasBSD/xonsh/commit/4c21211272f1a03e6b8ffc5f3307a1f9dafccfbd))
+* Update release-please.yml ([505a3a7](https://github.com/yonasBSD/xonsh/commit/505a3a7288f2840975265922a543e6296f6870de))
+* Update release-please.yml ([b29649a](https://github.com/yonasBSD/xonsh/commit/b29649aa974c9ce4858ee4ae3d2ab24b32ec0955))
+* update version to match the tag ([2041c3a](https://github.com/yonasBSD/xonsh/commit/2041c3a1ac87d98c077c93a1e50187c1d7e9f07e))
+* upload releases to PyPI ([#5847](https://github.com/yonasBSD/xonsh/issues/5847)) ([26818ef](https://github.com/yonasBSD/xonsh/commit/26818efd99ce0406beaaecab3e97a03a6352ac9f))
+
+
+### Performance Improvements
+
+* Disable double check is_file on Windows systems to speedup IO ([b112b83](https://github.com/yonasBSD/xonsh/commit/b112b834f198a0e3d1628dfeb792cdbb0fe0b5ef))
+
+
+### Documentation
+
+* Add missing bash conversion example ([#5832](https://github.com/yonasBSD/xonsh/issues/5832)) ([1985128](https://github.com/yonasBSD/xonsh/commit/198512832242afecf61ea902e4929f3d14767717))
+
+
+### Code Refactoring
+
+* auto-load xontribs after loading RC files ([#5873](https://github.com/yonasBSD/xonsh/issues/5873)) ([bf4770a](https://github.com/yonasBSD/xonsh/commit/bf4770a0181f7019a695508cc05911d705a58d83))
+
 ## [0.19.9](https://github.com/xonsh/xonsh/compare/0.19.8...0.19.9) (2025-06-24)
 
 
